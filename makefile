@@ -1,2 +1,6 @@
 client:
-	cd web && yarn dev
+	cd web
+	yarn dev
+
+export-python-lib:
+	pip freeze >> requirements.txt
