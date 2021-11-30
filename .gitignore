@@ -1,0 +1,9 @@
+/.idea/
+/.DS_Store
+/docs/swagger.*
+/venv/
+/web/node_modules/
+/web/.DS_Store
+/web/dist/
+/web/dist-ssr
+/web/*.local
