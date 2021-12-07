@@ -1,13 +1,13 @@
 # API settings
 API_ROUTE = "/api/v1"
-API_HOST = "localhost"
+API_HOST = "0.0.0.0"
 API_PORT = 5200
 API_NAME = "TrainingWenyi"
 
 # Database settings
 DB_HOST = "localhost"
 DB_PORT = 5432
-DB_NAME = API_NAME
+DB_NAME = API_NAME.lower()
 DB_TYPE = "postgresql"
 DB_USER = "postgres"
 DB_PASS = "postgres"

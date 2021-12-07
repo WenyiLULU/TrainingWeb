@@ -1,10 +1,12 @@
 /.idea/
 /.DS_Store
 /docs/swagger.*
-/fastapi_tests/
 /venv/
 /web/node_modules/
 /web/.DS_Store
 /web/dist/
 /web/dist-ssr
 /web/*.local
+
+/fastapi_tests/
+/web/src/components/tests.tsx

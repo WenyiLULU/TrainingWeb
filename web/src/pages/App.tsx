@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from '../../images/logo.svg'
 import '../styles/App.css'
+import Test from '../components/tests'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,6 +39,7 @@ function App() {
           </a>
         </p>
       </header>
+      <Test />
     </div>
   )
 }
